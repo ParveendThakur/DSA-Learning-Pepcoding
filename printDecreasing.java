@@ -14,6 +14,6 @@ public class Main {
         if (n==0) return;  // base case
 
         System.out.println(n);
-      //  printDecreasing(n-1); // faith       
+        printDecreasing(n-1); // faith       
     }
 }
