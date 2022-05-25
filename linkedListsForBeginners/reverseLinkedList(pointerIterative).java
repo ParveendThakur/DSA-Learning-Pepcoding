@@ -181,6 +181,9 @@ public class Main {
  
     public void reversePI(){
       // write your code here
+      Node prev = null;
+      Node curr = head;
+      
     }
   }
 
