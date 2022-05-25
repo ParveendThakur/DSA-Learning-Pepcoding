@@ -155,6 +155,10 @@ public class Main {
       }
     }
 
+    public getNodeAt(int idx){
+      
+    }
+
     public void reverseDI() {
       // write your code here
       int left = 0 , right = this.size - 1;
