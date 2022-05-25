@@ -190,6 +190,10 @@ public class Main {
         curr = temp;
       }
 
+      Node t = head;
+      this.head = tail;
+      this.tail = t;
+
     }
   }
 
