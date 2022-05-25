@@ -155,14 +155,28 @@ public class Main {
       }
     }
 
-    public getNodeAt(int idx){
-      
+     public Node getNodeAt(int idx) {
+      if (size == 0) {
+        System.out.println("List is empty");
+        return null;
+      } else if (idx < 0 || idx >= size) {
+        System.out.println("Invalid arguments");
+        return null;
+      } else {
+        Node temp = this.head;
+        for (int i = 0; i < idx; i++) {
+          temp = temp.next;
+        }
+        return temp;
+      }
     }
 
     public void reverseDI() {
       // write your code here
       int left = 0 , right = this.size - 1;
-      while (left < right)
+      while(left < right){
+        
+      }
     }
   }
 
