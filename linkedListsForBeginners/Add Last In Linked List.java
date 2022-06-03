@@ -15,18 +15,18 @@ public class Main {
 
     void addLast(int val) {
       // Write your code here
-      Node temp = new Node();
-      temp.data = val;
-      temp.next = null;
+     Node node = new Node();
+     node.data = val;
 
-      if (size == 0){
-        head = tail = temp;
+      if(this.size == 0){
+          this.head = node;
+          this.tail = node;
       }else{
-        tail.next = temp;
-        tail = temp;
+          this.tail.next = node;
+          this.tail = node;   
       }
-      size++;
-    }
+        this.size++;
+      }
   }
 
   public static void testList(LinkedList list) {
