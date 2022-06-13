@@ -1,0 +1,1 @@
+// https://nados.io/question/queue-to-stack-adapter-pop-efficient?zen=true
