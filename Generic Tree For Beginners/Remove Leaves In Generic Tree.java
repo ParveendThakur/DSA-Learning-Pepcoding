@@ -1,0 +1,1 @@
+// https://nados.io/question/remove-leaves-in-generic-tree?zen=true
