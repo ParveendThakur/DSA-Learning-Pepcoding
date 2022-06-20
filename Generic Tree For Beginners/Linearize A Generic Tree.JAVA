@@ -143,9 +143,25 @@ public class Main {
       removeLeaves(child);
     }
   }
+  public static Node getTailNode(Node node){
+    while(node.children.size() != 0){
+      node = node.children.get(0);
+    }
+    return node;
+  }
 
   public static void linearize(Node node){
     // write your code here
+    for (Node child: node.children){
+      linearize(child);
+    }
+    while(node.children.size() > 1){
+      Node lc = node.children.get(node.children.size()-1);
+      Node slc = node.children.get(node.children.size()-2);
+      node.children.remove(node.children.size()-1);
+      Node tailNode = getTailNode(slc);
+      tailNode.children.add(lc);
+    }
   }
 
   public static void main(String[] args) throws Exception {
