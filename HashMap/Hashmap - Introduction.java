@@ -10,6 +10,9 @@ public class Main{
         hm.put("Uk",170);
         hm.put("USA",110);
         System.out.println(hm);
-     
+        // update a value
+        hm.put("India",150);
+        System.out.println(hm);
+        
     }
 }
