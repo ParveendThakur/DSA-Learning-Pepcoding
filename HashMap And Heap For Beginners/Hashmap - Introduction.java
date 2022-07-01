@@ -27,6 +27,10 @@ public class Main{
         System.out.println(hm.remove("India")+" status -> "+hm);
         System.out.println(hm.remove("India")+" status -> "+hm);
 
+         for(String key : hm.keySet()){
+            System.out.println("key : "+key +" val : "+hm.get(key));
+        }
+
        
        
         
