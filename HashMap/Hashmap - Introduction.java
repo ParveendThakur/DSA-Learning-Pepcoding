@@ -13,6 +13,9 @@ public class Main{
         // update a value
         hm.put("India",150);
         System.out.println(hm);
+        // key exists
+        System.out.println(hm.containsKey("India"));
+        System.out.println(hm.containsKey("india"));
         
     }
 }
