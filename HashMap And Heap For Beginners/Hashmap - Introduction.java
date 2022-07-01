@@ -22,6 +22,12 @@ public class Main{
         // get a value
         System.out.println(hm.get("India"));
         System.out.println(hm.get("india"));
+
+        // remove a key,value
+        System.out.println(hm.remove("India")+" status -> "+hm);
+        System.out.println(hm.remove("India")+" status -> "+hm);
+
+       
        
         
         
