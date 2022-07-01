@@ -18,6 +18,11 @@ public class Main{
         // key exists
         System.out.println(hm.containsKey("India"));
         System.out.println(hm.containsKey("india"));
+
+        // get a value
+        System.out.println(hm.get("India"));
+        System.out.println(hm.get("india"));
+       
         
         
     }
