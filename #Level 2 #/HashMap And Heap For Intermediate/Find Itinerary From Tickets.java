@@ -6,7 +6,8 @@ public class Main {
 		Scanner scn = new Scanner(System.in);
 		int noofpairs_src_des = scn.nextInt();
 		HashMap<String, String> map = new HashMap<>();
-
+		//write your code here
+		
 		HashMap<String , Boolean> hm = new HashMap<>();
 		for (int i = 0; i < noofpairs_src_des; i++) {
 			String s1 = scn.next();
@@ -17,6 +18,7 @@ public class Main {
 				hm.put(s1,true);
 			}
 		}
+
 		String src = "";
 		for(String s : hm.keySet()){
 			if(hm.get(s)==true){
@@ -29,13 +31,8 @@ public class Main {
 		while(map.containsKey(src)){
 			src = map.get(src);
 			System.out.print(" -> " + src);
-
 		}
 
 		System.out.println(".");
-
-		//write your code here
-
-
 	}
 }
