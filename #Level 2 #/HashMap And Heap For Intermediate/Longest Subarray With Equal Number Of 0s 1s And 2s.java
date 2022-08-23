@@ -2,8 +2,10 @@
 import java.util.*;
 
 public class Main {
+
     public static int solution(int[] arr) {
         // write your code here
+
         return 0;
     }
     public static void main(String[] args) {
