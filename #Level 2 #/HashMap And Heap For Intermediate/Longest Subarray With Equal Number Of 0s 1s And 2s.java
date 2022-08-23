@@ -2,13 +2,10 @@
 import java.util.*;
 
 public class Main {
-
     public static int solution(int[] arr) {
         // write your code here
-
         return 0;
     }
-    
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
@@ -18,5 +15,4 @@ public class Main {
         }
         System.out.println(solution(arr));
     }
-
 }
