@@ -1,0 +1,1 @@
+// https://nados.io/question/smallest-subarray-with-all-occurrences-of-the-most-frequent-element
